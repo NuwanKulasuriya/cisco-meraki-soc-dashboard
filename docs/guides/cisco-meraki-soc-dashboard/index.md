@@ -9,11 +9,13 @@ keywords: ['security-monitoring', 'streamlit', 'cisco-meraki', 'log-analysis', '
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
 ---
 
+
 ## Introduction
 
-In an enterprise IT infrastructure, security administrators often navigate fragmented monitoring tools—checking a Linux syslog view, monitoring a Windows Active Directory controller, and hunting through edge network appliances. 
+In an enterprise IT infrastructure, security administrators often navigate highly fragmented monitoring tools—checking a Linux syslog view, monitoring a Windows Active Directory controller, and hunting through edge network appliances. This fragmentation can lead to delayed visibility during critical network threat events.
 
-This guide demonstrates how to build a unified, local Security Operations Center (SOC) visualization application using Python, Pandas, and Streamlit. This utility ingest raw strings and structured CSV sheets, normalizes varying vendor terminologies, and displays threat matrices in real-time.
+This guide demonstrates how to build a unified, local Security Operations Center (SOC) visualization application using Python, Pandas, and Streamlit. While this utility is built to dynamically normalize varying vendor terminologies across multiple operating systems, it specifically targets enterprise edge infrastructure by processing structured **Cisco Meraki MX Security Appliance** event logs containing Snort IDS/IPS threat signatures. Readers will learn how to parse raw telemetry streams and map complex multi-class security distributions cleanly without cluttering host strings.
+
 
 ## Before You Begin
 
