@@ -3,7 +3,7 @@ slug: cisco-meraki-soc-dashboard
 title: "Building a Cross-Platform Security Log Visualizer with Python and Streamlit"
 description: "Learn how to build a unified local security dashboard using Python and Pandas to ingest, normalize, and visualize fragmented network firewall and endpoint log formats."
 authors: Nuwan Kulasuriya	
-contributors: --
+contributors: Nuwan Kulasuriya
 published: 2026-06-03
 keywords: ['security-monitoring', 'streamlit', 'cisco-meraki', 'log-analysis', 'python']
 license: '[CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0)'
